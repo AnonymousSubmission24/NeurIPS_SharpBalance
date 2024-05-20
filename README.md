@@ -7,7 +7,7 @@ __SharpBalance__ is an ensembling method that balances the ensemble **diversity*
   <img src="./assert/simulated_estimated.png" width="300" />
   <img src="./assert/teaser_cifar10_trade_off.png" width="215" /> 
 </p>
-__SharpBalance__ aims to achieve the __optimal__ __balance__ by applying SAM to a carefully selected subset of the data, while performing standard optimization on the remaining samples. The pipeline of the algorithm is shown below
+SharpBalance aims to achieve the optimal balance by applying SAM to a carefully selected subset of the data, while performing standard optimization on the remaining samples. The pipeline of the algorithm is shown below
 <p align="center">
   <img src="./assert/sharpbalance_diagram.png" width="500" />
 </p>
