@@ -13,8 +13,9 @@ SharpBalance aims to achieve the optimal balance by applying SAM to a carefully 
 </p>
 Experiments show that SharpBalance improves the overall ensembling performance and mitigates the reduced ensembling improvement caused by sharpness-diversity trade-off.
 <p align="center">
-  <img src="./assert/benchmark_results.png" width="500" />
+  <img src="./assert/benchmark_results.png" width="600" />
 </p>
+
 ---
 ## Setup
 
