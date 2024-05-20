@@ -3,7 +3,7 @@ Official PyTorch implementation of SharpBalance
 
 ## Introduction
 __SharpBalance__ is an ensembling method that balances the ensemble **diversity** and **sharpness** of individual ensemble members. In this work, We discover a trade-off between sharpness and diversity: minimizing the sharpness in the loss landscape tends to diminish the diversity of individual members within the ensemble, adversely affecting the ensemble's improvement. The trade-off is justified through our theoretical analysis and experiments.
-<p float="center">
+<p align="center">
   <img src="./assert/simulated_estimated.png" width="300" />
   <img src="./assert/teaser_cifar10_trade_off.png" width="215" /> 
 </p>
