@@ -9,7 +9,7 @@ __SharpBalance__ is an ensembling method that balances the ensemble **diversity*
 </p>
 SharpBalance aims to achieve the optimal balance by applying SAM to a carefully selected subset of the data, while performing standard optimization on the remaining samples. The pipeline of the algorithm is shown below
 <p align="center">
-  <img src="./sharpbalance_diagram.png" width="500" />
+  <img src="./assert/sharpbalance_diagram.png" width="500" />
 </p>
 
 ---
