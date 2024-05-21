@@ -112,7 +112,7 @@ python measure_sharpness.py \
 
 ### Simulation of theorical results
 
-We have included the simulation code for verifications in the notebook [verifications.ipynb](verifications.ipynb). Feel free to have a try !
+We have included the simulation code for verifications in the notebook [theoretical verification.ipynb](verifications.ipynb). Feel free to try!
 
 
 ### Arguments usage
