@@ -79,7 +79,7 @@ python main.py \
 ```
 python measure_diversity.py \
     --dataset [cifar10 or cifar100 or tiny_imgnet] \
-    --data_path [path to downloaded data] \
+    --data_path [path to dataset] \
     --model resnet18 \
     --resume [path to ensemble models] \
     --mode disagreement \
@@ -91,7 +91,7 @@ python measure_diversity.py \
 ```
 python measure_diversity_variance.py \
     --dataset [cifar10 or cifar100 or tiny_imgnet] \
-    --data_path [path to downloaded data] \
+    --data_path [path to dataset] \
     --model resnet18 \
     --resume [path to ensemble models] \
     --mode variance_mse_c \
@@ -103,7 +103,7 @@ python measure_diversity_variance.py \
 ```
 python measure_sharpness.py \
         --dataset [cifar10 or cifar100 or tiny_imgnet] \
-        --data_path ${data_path} \
+        --data_path [path to dataset] \
         --model resnet18 \
         --resume [path to ensemble models] \
         --mode APGD_worst \
