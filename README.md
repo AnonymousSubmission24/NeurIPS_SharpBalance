@@ -25,7 +25,7 @@ Experiments show that SharpBalance improves the overall ensembling performance a
 </p>
 
 
-## Setup
+## Environment Setup
 
 Installation instructions can be found in [INSTALL.md](INSTALL.md).
 
@@ -33,7 +33,7 @@ Installation instructions can be found in [INSTALL.md](INSTALL.md).
 
 ### Training
 
-* Script example of runing deep ensemble 
+* Script example of runing deep ensemble
 
 ```
 python main.py \
@@ -44,7 +44,7 @@ python main.py \
     --save_path [path to save models]
 ```
 
-* Script example of runing deep ensemble with sam
+* Script example of runing deep ensemble with SAM
 
 ```
 python main.py \
@@ -53,7 +53,7 @@ python main.py \
     --model resnet18 \
     --seed "13 17 27" \
     --sam True \
-    --rho ${rho}
+    --rho 0.2
     --save_path [path to save models]
 ```
 
